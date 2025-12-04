@@ -9,4 +9,4 @@
 7. Bash script will be used for automating the process of builds and thus is required for all contributor to edit it according to their build script.
 8. No external/custom scipt must be added without proper consent and information.
 9. constant spamming to merge the pull request is prohibited.
-    
+10. Read through STRUCT.md for clear structure of files locationa and what at add where ... Any addition of files must be added there...
