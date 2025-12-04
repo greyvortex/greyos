@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "/usr/sbin/lightdm" > /etc/X11/default-display-manager
+

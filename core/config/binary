@@ -19,16 +19,16 @@ LB_BOOTAPPEND_INSTALL=""
 LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live components memtest noapic noapm nodma nomce nosmp nosplash vga=788"
 
 # Set BIOS bootloader
-LB_BOOTLOADER_BIOS="syslinux"
+LB_BOOTLOADER_BIOS=""
 
 # Set EFI bootloader
 LB_BOOTLOADER_EFI="grub-efi"
 
 # Set bootloaders
-LB_BOOTLOADERS=""
+LB_BOOTLOADERS="grub-efi"
 
 # Set checksums
-LB_CHECKSUMS="sha256"
+LB_CHECKSUMS="sha256 md5"
 
 # Set compression
 LB_COMPRESSION="none"
@@ -50,10 +50,10 @@ LB_ZSYNC="false"
 LB_BUILD_WITH_CHROOT="true"
 
 # Set debian-installer
-LB_DEBIAN_INSTALLER="none"
+LB_DEBIAN_INSTALLER="live"
 
 # Set debian-installer suite
-LB_DEBIAN_INSTALLER_DISTRIBUTION="testing"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="bookworm"
 
 # Set debian-installer preseed filename/url
 LB_DEBIAN_INSTALLER_PRESEEDFILE=""
@@ -80,7 +80,7 @@ LB_ISO_PREPARER="live-build @LB_VERSION@; https://salsa.debian.org/live-team/liv
 LB_ISO_PUBLISHER="Debian Live project; https://wiki.debian.org/DebianLive; debian-live@lists.debian.org"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="Debian testing @ISOVOLUME_TS@"
+LB_ISO_VOLUME="Debian bookworm @ISOVOLUME_TS@"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""
@@ -89,7 +89,7 @@ LB_JFFS2_ERASEBLOCK=""
 LB_MEMTEST="none"
 
 # Set loadlin
-LB_LOADLIN="false"
+LB_LOADLIN="true"
 
 # Set win32-loader
 LB_WIN32_LOADER="false"

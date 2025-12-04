@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+iptables -P OUTPUT DROP
+iptables -A OUTPUT -m owner --uid-owner debian-tor -j ACCEPT

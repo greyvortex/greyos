@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Enable tor service
+systemctl enable tor
+# Configure transparent proxy routing
+echo "TransPort 9040" >> /etc/tor/torrc
+echo "DNSPort 5353" >> /etc/tor/torrc
+
