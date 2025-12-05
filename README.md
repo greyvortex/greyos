@@ -1,4 +1,4 @@
-#GreyOS 
+# HydraOS
 > Minimal distribution of Debian stable. Main area of mastery in pentesting , Development and Privacy.
 ---
 >`A Hacker who cant program and keep his privacy is not a hacker but a skid !!!`
