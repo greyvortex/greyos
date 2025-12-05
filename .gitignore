@@ -1,2 +1,4 @@
 *.iso 
-
+core/.build
+core/local
+core/auto
