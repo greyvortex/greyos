@@ -25,7 +25,7 @@
 1. Tor Routing
 2. Mac Changer enabled by Default
 3. Kill Switch for tor disabled scenario
-4. full pre-installed setup for Development and Prohgramming
+4. full pre-installed setup for Development and Programming
 5. Tools for Pentesting and Hacking Suit
 > Different versions coming soon specially for malware analysis and Reverse Engineering as main Scope along with privacy.
 ---
